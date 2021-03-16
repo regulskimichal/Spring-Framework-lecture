@@ -10,4 +10,5 @@ import lombok.*;
 public class Todo {
     Long id;
     String message;
+    Boolean done;
 }

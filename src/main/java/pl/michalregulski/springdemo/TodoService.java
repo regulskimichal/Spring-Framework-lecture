@@ -19,4 +19,18 @@ public class TodoService {
         return todoRepository.findById(id);
     }
 
+    public Todo markAsDone(Long id) {
+        final var todo = todoRepository.findById(id);
+        if (todo == null) {
+            throw new EntityNotFoundException(Todo.class, id);
+        }
+
+        if (!todo.done) {
+            todo.done = true;
+        } else {
+            throw new TodoIsAlreadyDoneException();
+        }
+        return todo;
+    }
+
 }

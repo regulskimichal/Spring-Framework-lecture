@@ -16,7 +16,7 @@ public class Config {
     public CommandLineRunner commandLineRunner(ApplicationContext applicationContext) {
         return args -> {
             var todoRepository = applicationContext.getBean(TodoRepository.class);
-            todoRepository.save(new Todo(1L, "Master thesis"));
+            todoRepository.save(new Todo(1L, "Master thesis", false));
             final Todo todo = todoRepository.findById(1L);
             log.info(todo.toString());
         };
