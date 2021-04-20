@@ -2,6 +2,8 @@ package pl.michalregulski.springdemo;
 
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class TodoService {
 
@@ -13,6 +15,10 @@ public class TodoService {
 
     public void save(Todo todo) {
         todoRepository.save(todo);
+    }
+
+    public List<Todo> getAll() {
+        return todoRepository.findAll();
     }
 
     public Todo get(Long id) {

@@ -18,4 +18,8 @@ public class TodoRepository {
         return todos.stream().filter(todo -> todo.id.equals(id)).findFirst().orElse(null);
     }
 
+    public List<Todo> findAll() {
+        return todos;
+    }
+
 }
