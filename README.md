@@ -7,3 +7,4 @@ different steps according to the presentations.
 
 0. [Intro](https://politechnikawroclawska-my.sharepoint.com/:p:/g/personal/225773_student_pwr_edu_pl/EcyWVvJnECVHv2GQuzBRBQABvG_aemrSYHUqbliPrqdsmQ?e=KuLcGQ)
 1. [REST API](https://politechnikawroclawska-my.sharepoint.com/:p:/g/personal/225773_student_pwr_edu_pl/Ed1Rdf-6-dNPuSHUpZleC7IBr3TmkDhH6Dbgthe4GYDo_w?e=3GDujD)
+2. [SQL databases](https://politechnikawroclawska-my.sharepoint.com/:p:/g/personal/225773_student_pwr_edu_pl/EYCMEjHfT_5Dj0hhP6E9sXABBbZZT4BEl5wtOtC-zaxXiQ?e=HeoabE)
